@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "medicalchatbot-llama2"
+version = "0.1.0"
+description = "Medical chatbot using Llama2"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.1.16"
+fastapi = "^0.110.2"
+ctransformers = "^0.2.27"
+sentence-transformers = "^2.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
